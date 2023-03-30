@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A50A1EF-C3D4-4348-86D8-7F0CAD83AEF8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7458E5AA-93C5-4A41-8620-525E25536AC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACB45A90-712E-4B1D-B556-1BA956C7FDE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "ACB45A90-712E-4B1D-B556-1BA956C7FDE3 - 8372f3d4cb4eee2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in Marvel.HeroViewModel.getHeros(filter: Swift.String) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/HeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "ACB45A90-712E-4B1D-B556-1BA956C7FDE3 - 8372f3d4cb4eee2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in Marvel.HeroViewModel.getHeros(filter: Swift.String) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/HeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23304A72-A079-4FB3-BEC9-16B2C46D2FA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFE402A0-EFF5-4EFD-B49D-4E6C826781BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F7AC2EF-76F9-4FA8-AE3F-1D49437C9276"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D92B401E-DDD1-4C1D-A06E-78D6DC71318E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB9733F9-98CD-475F-9FDD-BC12F9466047"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F257BB1-2ABA-4E9C-9AC3-EC1B8F9E77BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/HeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getHeros(filter:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "427B68DA-D036-4968-A3C7-A29B464BA985"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getHerosSeries(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "427B68DA-D036-4968-A3C7-A29B464BA985 - 7ad3bfd63da09f8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvel.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "427B68DA-D036-4968-A3C7-A29B464BA985 - 8acde167e199f3eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelTests.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5101FAEF-3085-4EB5-8CBD-3CD8931568D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Services/BaseNetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "getSessionHerosSeries(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5101FAEF-3085-4EB5-8CBD-3CD8931568D9 - b2048d27bdc07a27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvel.BaseNetwork.getSessionHerosSeries(id: Swift.Int) -&gt; Foundation.URLRequest"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/Services/BaseNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "860">
+               </Location>
+               <Location
+                  uuid = "5101FAEF-3085-4EB5-8CBD-3CD8931568D9 - 1145c71e3de7ad77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelTests.BaseNetwork.getSessionHerosSeries(id: Swift.Int) -&gt; Foundation.URLRequest"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/Services/BaseNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B221FE0-082C-4253-8BFF-8F293B472352"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getHerosSeries(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B221FE0-082C-4253-8BFF-8F293B472352 - 82e5fe0f4c40eb82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in Marvel.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "5B221FE0-082C-4253-8BFF-8F293B472352 - 82e5fe0f4c40eb82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in Marvel.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "5B221FE0-082C-4253-8BFF-8F293B472352 - 8a13fcfb61ab093a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in MarvelTests.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "5B221FE0-082C-4253-8BFF-8F293B472352 - 8a13fcfb61ab093a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Foundation.Data in MarvelTests.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B14B959C-8AD8-4338-8A7E-68FBFA40F6BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getHerosSeries(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B14B959C-8AD8-4338-8A7E-68FBFA40F6BC - a6e0b69604383f80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in Marvel.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "B14B959C-8AD8-4338-8A7E-68FBFA40F6BC - 783831704e585de3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelTests.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FC438CF-3ECA-4906-BC10-99CEAB17687C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getHerosSeries(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5FC438CF-3ECA-4906-BC10-99CEAB17687C - a6e0b69604383fc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in Marvel.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "5FC438CF-3ECA-4906-BC10-99CEAB17687C - 783831704e585da1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelTests.SeriesHeroViewModel.getHerosSeries(id: Swift.Int) -&gt; ()"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/ViewModels/Hero/SeriesHeroViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "054FC724-89C3-4219-9EF8-B38F6251F977"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Services/BaseNetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getSessionHeros(filter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "054FC724-89C3-4219-9EF8-B38F6251F977 - 994021ded1861a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvel.BaseNetwork.getSessionHeros(filter: Swift.String) -&gt; Foundation.URLRequest"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/Services/BaseNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "2996">
+               </Location>
+               <Location
+                  uuid = "054FC724-89C3-4219-9EF8-B38F6251F977 - 25250fff4bd5e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelTests.BaseNetwork.getSessionHeros(filter: Swift.String) -&gt; Foundation.URLRequest"
+                  moduleName = "MarvelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enriquepoyatoortiz/Desktop/Bootcamp/SwiftUI/repo/Practica-IOS-Superpoderes/Marvel/Marvel/Services/BaseNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "2996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

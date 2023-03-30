@@ -10,12 +10,64 @@
 		3A44302629D195350003E7DA /* MarvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44302529D195350003E7DA /* MarvelApp.swift */; };
 		3A44302829D195350003E7DA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44302729D195350003E7DA /* Persistence.swift */; };
 		3A44302B29D195350003E7DA /* Marvel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A44302929D195350003E7DA /* Marvel.xcdatamodeld */; };
-		3A44302D29D195350003E7DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44302C29D195350003E7DA /* ContentView.swift */; };
 		3A44302F29D195360003E7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A44302E29D195360003E7DA /* Assets.xcassets */; };
 		3A44303329D195360003E7DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A44303229D195360003E7DA /* Preview Assets.xcassets */; };
 		3A44303D29D195360003E7DA /* MarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44303C29D195360003E7DA /* MarvelTests.swift */; };
 		3A44304729D195360003E7DA /* MarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44304629D195360003E7DA /* MarvelUITests.swift */; };
 		3A44304929D195360003E7DA /* MarvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44304829D195360003E7DA /* MarvelUITestsLaunchTests.swift */; };
+		3A44306729D198040003E7DA /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306629D198040003E7DA /* StatusModel.swift */; };
+		3A44306829D198040003E7DA /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306629D198040003E7DA /* StatusModel.swift */; };
+		3A44306929D198040003E7DA /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306629D198040003E7DA /* StatusModel.swift */; };
+		3A44306D29D199B80003E7DA /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306C29D199B80003E7DA /* KeyChain.swift */; };
+		3A44306E29D199B80003E7DA /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306C29D199B80003E7DA /* KeyChain.swift */; };
+		3A44306F29D199B80003E7DA /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44306C29D199B80003E7DA /* KeyChain.swift */; };
+		3A44307129D199E10003E7DA /* PersistentKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307029D199E10003E7DA /* PersistentKeyChain.swift */; };
+		3A44307229D199E10003E7DA /* PersistentKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307029D199E10003E7DA /* PersistentKeyChain.swift */; };
+		3A44307329D199E10003E7DA /* PersistentKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307029D199E10003E7DA /* PersistentKeyChain.swift */; };
+		3A44307529D19AEB0003E7DA /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307429D19AEB0003E7DA /* HeroViewModel.swift */; };
+		3A44307629D19AEB0003E7DA /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307429D19AEB0003E7DA /* HeroViewModel.swift */; };
+		3A44307729D19AEB0003E7DA /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307429D19AEB0003E7DA /* HeroViewModel.swift */; };
+		3A44307929D19B1B0003E7DA /* MarvelHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307829D19B1B0003E7DA /* MarvelHero.swift */; };
+		3A44307A29D19B1B0003E7DA /* MarvelHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307829D19B1B0003E7DA /* MarvelHero.swift */; };
+		3A44307B29D19B1B0003E7DA /* MarvelHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307829D19B1B0003E7DA /* MarvelHero.swift */; };
+		3A44307D29D19D8E0003E7DA /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307C29D19D8E0003E7DA /* BaseNetwork.swift */; };
+		3A44307E29D19D8E0003E7DA /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307C29D19D8E0003E7DA /* BaseNetwork.swift */; };
+		3A44307F29D19D8E0003E7DA /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44307C29D19D8E0003E7DA /* BaseNetwork.swift */; };
+		3A44308229D1AAE10003E7DA /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308129D1AAE10003E7DA /* HerosView.swift */; };
+		3A44308329D1AAE10003E7DA /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308129D1AAE10003E7DA /* HerosView.swift */; };
+		3A44308429D1AAE10003E7DA /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308129D1AAE10003E7DA /* HerosView.swift */; };
+		3A44308629D1AFFA0003E7DA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308529D1AFFA0003E7DA /* RootView.swift */; };
+		3A44308729D1AFFA0003E7DA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308529D1AFFA0003E7DA /* RootView.swift */; };
+		3A44308829D1AFFA0003E7DA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308529D1AFFA0003E7DA /* RootView.swift */; };
+		3A44308F29D1B0770003E7DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308E29D1B0770003E7DA /* HomeView.swift */; };
+		3A44309029D1B0770003E7DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308E29D1B0770003E7DA /* HomeView.swift */; };
+		3A44309129D1B0770003E7DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44308E29D1B0770003E7DA /* HomeView.swift */; };
+		3A44309429D1D3530003E7DA /* HerosViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309329D1D3530003E7DA /* HerosViewRow.swift */; };
+		3A44309529D1D3530003E7DA /* HerosViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309329D1D3530003E7DA /* HerosViewRow.swift */; };
+		3A44309629D1D3530003E7DA /* HerosViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309329D1D3530003E7DA /* HerosViewRow.swift */; };
+		3A44309829D1DD180003E7DA /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309729D1DD180003E7DA /* HeroDetailView.swift */; };
+		3A44309929D1DD180003E7DA /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309729D1DD180003E7DA /* HeroDetailView.swift */; };
+		3A44309A29D1DD180003E7DA /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309729D1DD180003E7DA /* HeroDetailView.swift */; };
+		3A44309C29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309B29D1DF480003E7DA /* MarvelSeriesModel.swift */; };
+		3A44309D29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309B29D1DF480003E7DA /* MarvelSeriesModel.swift */; };
+		3A44309E29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44309B29D1DF480003E7DA /* MarvelSeriesModel.swift */; };
+		3A4430A129D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A029D1E19F0003E7DA /* SeriesHeroViewModel.swift */; };
+		3A4430A229D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A029D1E19F0003E7DA /* SeriesHeroViewModel.swift */; };
+		3A4430A329D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A029D1E19F0003E7DA /* SeriesHeroViewModel.swift */; };
+		3A4430A629D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A529D1F00A0003E7DA /* SeriesHeroRow.swift */; };
+		3A4430A729D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A529D1F00A0003E7DA /* SeriesHeroRow.swift */; };
+		3A4430A829D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430A529D1F00A0003E7DA /* SeriesHeroRow.swift */; };
+		3A4430AC29D1FC130003E7DA /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AA29D1FC130003E7DA /* LoaderView.swift */; };
+		3A4430AD29D1FC130003E7DA /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AA29D1FC130003E7DA /* LoaderView.swift */; };
+		3A4430AE29D1FC130003E7DA /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AA29D1FC130003E7DA /* LoaderView.swift */; };
+		3A4430AF29D1FC130003E7DA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AB29D1FC130003E7DA /* ErrorView.swift */; };
+		3A4430B029D1FC130003E7DA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AB29D1FC130003E7DA /* ErrorView.swift */; };
+		3A4430B129D1FC130003E7DA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430AB29D1FC130003E7DA /* ErrorView.swift */; };
+		3A46ECAE29D2F056004B4641 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A46ECAD29D2F056004B4641 /* KeychainSwift */; };
+		3A46ECB029D2F067004B4641 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A46ECAF29D2F067004B4641 /* KeychainSwift */; };
+		3A46ECB229D2F06C004B4641 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A46ECB129D2F06C004B4641 /* KeychainSwift */; };
+		3A46ECB429D2F070004B4641 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 3A46ECB329D2F070004B4641 /* ViewInspector */; };
+		3A89E5E529D2E66500D73B0A /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 3A89E5E429D2E66500D73B0A /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +92,6 @@
 		3A44302529D195350003E7DA /* MarvelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelApp.swift; sourceTree = "<group>"; };
 		3A44302729D195350003E7DA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3A44302A29D195350003E7DA /* Marvel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marvel.xcdatamodel; sourceTree = "<group>"; };
-		3A44302C29D195350003E7DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A44302E29D195360003E7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A44303029D195360003E7DA /* Marvel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marvel.entitlements; sourceTree = "<group>"; };
 		3A44303229D195360003E7DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +100,23 @@
 		3A44304229D195360003E7DA /* MarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A44304629D195360003E7DA /* MarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUITests.swift; sourceTree = "<group>"; };
 		3A44304829D195360003E7DA /* MarvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A44306629D198040003E7DA /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		3A44306C29D199B80003E7DA /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		3A44307029D199E10003E7DA /* PersistentKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentKeyChain.swift; sourceTree = "<group>"; };
+		3A44307429D19AEB0003E7DA /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		3A44307829D19B1B0003E7DA /* MarvelHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHero.swift; sourceTree = "<group>"; };
+		3A44307C29D19D8E0003E7DA /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		3A44308129D1AAE10003E7DA /* HerosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosView.swift; sourceTree = "<group>"; };
+		3A44308529D1AFFA0003E7DA /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3A44308E29D1B0770003E7DA /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A44309229D1CDB30003E7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A44309329D1D3530003E7DA /* HerosViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosViewRow.swift; sourceTree = "<group>"; };
+		3A44309729D1DD180003E7DA /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		3A44309B29D1DF480003E7DA /* MarvelSeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelSeriesModel.swift; sourceTree = "<group>"; };
+		3A4430A029D1E19F0003E7DA /* SeriesHeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesHeroViewModel.swift; sourceTree = "<group>"; };
+		3A4430A529D1F00A0003E7DA /* SeriesHeroRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesHeroRow.swift; sourceTree = "<group>"; };
+		3A4430AA29D1FC130003E7DA /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		3A4430AB29D1FC130003E7DA /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A46ECAE29D2F056004B4641 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A46ECB029D2F067004B4641 /* KeychainSwift in Frameworks */,
+				3A89E5E529D2E66500D73B0A /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A46ECB229D2F06C004B4641 /* KeychainSwift in Frameworks */,
+				3A46ECB429D2F070004B4641 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +156,7 @@
 				3A44303B29D195360003E7DA /* MarvelTests */,
 				3A44304529D195360003E7DA /* MarvelUITests */,
 				3A44302329D195350003E7DA /* Products */,
+				3A44305E29D196B90003E7DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +173,14 @@
 		3A44302429D195350003E7DA /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				3A44309229D1CDB30003E7DA /* Info.plist */,
+				3A44305629D196510003E7DA /* Models */,
+				3A44305529D196480003E7DA /* ViewModels */,
+				3A44305A29D196790003E7DA /* Tools */,
+				3A44305929D196730003E7DA /* Services */,
+				3A44305829D196640003E7DA /* Views */,
 				3A44302529D195350003E7DA /* MarvelApp.swift */,
 				3A44302729D195350003E7DA /* Persistence.swift */,
-				3A44302C29D195350003E7DA /* ContentView.swift */,
 				3A44302E29D195360003E7DA /* Assets.xcassets */,
 				3A44303029D195360003E7DA /* Marvel.entitlements */,
 				3A44302929D195350003E7DA /* Marvel.xcdatamodeld */,
@@ -135,6 +214,96 @@
 			path = MarvelUITests;
 			sourceTree = "<group>";
 		};
+		3A44305529D196480003E7DA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A44309F29D1E18D0003E7DA /* Hero */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A44305629D196510003E7DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A44306629D198040003E7DA /* StatusModel.swift */,
+				3A44307829D19B1B0003E7DA /* MarvelHero.swift */,
+				3A44309B29D1DF480003E7DA /* MarvelSeriesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A44305829D196640003E7DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A4430A929D1FC130003E7DA /* Tools */,
+				3A44308D29D1B0770003E7DA /* Home */,
+				3A44308529D1AFFA0003E7DA /* RootView.swift */,
+				3A44308029D1AACE0003E7DA /* Heros */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A44305929D196730003E7DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A44307C29D19D8E0003E7DA /* BaseNetwork.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3A44305A29D196790003E7DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3A44306C29D199B80003E7DA /* KeyChain.swift */,
+				3A44307029D199E10003E7DA /* PersistentKeyChain.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3A44305E29D196B90003E7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A44308029D1AACE0003E7DA /* Heros */ = {
+			isa = PBXGroup;
+			children = (
+				3A44308129D1AAE10003E7DA /* HerosView.swift */,
+				3A44309329D1D3530003E7DA /* HerosViewRow.swift */,
+				3A44309729D1DD180003E7DA /* HeroDetailView.swift */,
+				3A4430A529D1F00A0003E7DA /* SeriesHeroRow.swift */,
+			);
+			path = Heros;
+			sourceTree = "<group>";
+		};
+		3A44308D29D1B0770003E7DA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3A44308E29D1B0770003E7DA /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A44309F29D1E18D0003E7DA /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				3A44307429D19AEB0003E7DA /* HeroViewModel.swift */,
+				3A4430A029D1E19F0003E7DA /* SeriesHeroViewModel.swift */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		3A4430A929D1FC130003E7DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3A4430AA29D1FC130003E7DA /* LoaderView.swift */,
+				3A4430AB29D1FC130003E7DA /* ErrorView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +320,9 @@
 			dependencies = (
 			);
 			name = Marvel;
+			packageProductDependencies = (
+				3A46ECAD29D2F056004B4641 /* KeychainSwift */,
+			);
 			productName = Marvel;
 			productReference = 3A44302229D195350003E7DA /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -169,6 +341,10 @@
 				3A44303A29D195360003E7DA /* PBXTargetDependency */,
 			);
 			name = MarvelTests;
+			packageProductDependencies = (
+				3A89E5E429D2E66500D73B0A /* ViewInspector */,
+				3A46ECAF29D2F067004B4641 /* KeychainSwift */,
+			);
 			productName = MarvelTests;
 			productReference = 3A44303829D195360003E7DA /* MarvelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -187,6 +363,10 @@
 				3A44304429D195360003E7DA /* PBXTargetDependency */,
 			);
 			name = MarvelUITests;
+			packageProductDependencies = (
+				3A46ECB129D2F06C004B4641 /* KeychainSwift */,
+				3A46ECB329D2F070004B4641 /* ViewInspector */,
+			);
 			productName = MarvelUITests;
 			productReference = 3A44304229D195360003E7DA /* MarvelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -223,6 +403,10 @@
 				Base,
 			);
 			mainGroup = 3A44301929D195350003E7DA;
+			packageReferences = (
+				3A89E5E329D2E66500D73B0A /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				3A46ECAC29D2F056004B4641 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 3A44302329D195350003E7DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +449,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A44307529D19AEB0003E7DA /* HeroViewModel.swift in Sources */,
+				3A44308229D1AAE10003E7DA /* HerosView.swift in Sources */,
+				3A44308F29D1B0770003E7DA /* HomeView.swift in Sources */,
+				3A44306729D198040003E7DA /* StatusModel.swift in Sources */,
+				3A44307929D19B1B0003E7DA /* MarvelHero.swift in Sources */,
+				3A44309C29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */,
+				3A44309829D1DD180003E7DA /* HeroDetailView.swift in Sources */,
+				3A4430AC29D1FC130003E7DA /* LoaderView.swift in Sources */,
+				3A44306D29D199B80003E7DA /* KeyChain.swift in Sources */,
 				3A44302B29D195350003E7DA /* Marvel.xcdatamodeld in Sources */,
+				3A44309429D1D3530003E7DA /* HerosViewRow.swift in Sources */,
+				3A44307129D199E10003E7DA /* PersistentKeyChain.swift in Sources */,
 				3A44302629D195350003E7DA /* MarvelApp.swift in Sources */,
-				3A44302D29D195350003E7DA /* ContentView.swift in Sources */,
+				3A44308629D1AFFA0003E7DA /* RootView.swift in Sources */,
+				3A4430A629D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */,
+				3A4430AF29D1FC130003E7DA /* ErrorView.swift in Sources */,
 				3A44302829D195350003E7DA /* Persistence.swift in Sources */,
+				3A44307D29D19D8E0003E7DA /* BaseNetwork.swift in Sources */,
+				3A4430A129D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +475,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A44307229D199E10003E7DA /* PersistentKeyChain.swift in Sources */,
+				3A44307E29D19D8E0003E7DA /* BaseNetwork.swift in Sources */,
 				3A44303D29D195360003E7DA /* MarvelTests.swift in Sources */,
+				3A44306E29D199B80003E7DA /* KeyChain.swift in Sources */,
+				3A44308729D1AFFA0003E7DA /* RootView.swift in Sources */,
+				3A44309029D1B0770003E7DA /* HomeView.swift in Sources */,
+				3A4430B029D1FC130003E7DA /* ErrorView.swift in Sources */,
+				3A44307A29D19B1B0003E7DA /* MarvelHero.swift in Sources */,
+				3A44308329D1AAE10003E7DA /* HerosView.swift in Sources */,
+				3A44309929D1DD180003E7DA /* HeroDetailView.swift in Sources */,
+				3A4430A229D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */,
+				3A44309529D1D3530003E7DA /* HerosViewRow.swift in Sources */,
+				3A44309D29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */,
+				3A44307629D19AEB0003E7DA /* HeroViewModel.swift in Sources */,
+				3A4430AD29D1FC130003E7DA /* LoaderView.swift in Sources */,
+				3A44306829D198040003E7DA /* StatusModel.swift in Sources */,
+				3A4430A729D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +499,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A44307329D199E10003E7DA /* PersistentKeyChain.swift in Sources */,
+				3A44309629D1D3530003E7DA /* HerosViewRow.swift in Sources */,
+				3A4430B129D1FC130003E7DA /* ErrorView.swift in Sources */,
+				3A44307729D19AEB0003E7DA /* HeroViewModel.swift in Sources */,
+				3A44306929D198040003E7DA /* StatusModel.swift in Sources */,
+				3A44307F29D19D8E0003E7DA /* BaseNetwork.swift in Sources */,
+				3A44309E29D1DF480003E7DA /* MarvelSeriesModel.swift in Sources */,
+				3A44307B29D19B1B0003E7DA /* MarvelHero.swift in Sources */,
 				3A44304729D195360003E7DA /* MarvelUITests.swift in Sources */,
+				3A44308429D1AAE10003E7DA /* HerosView.swift in Sources */,
+				3A4430A329D1E19F0003E7DA /* SeriesHeroViewModel.swift in Sources */,
+				3A44306F29D199B80003E7DA /* KeyChain.swift in Sources */,
+				3A44309A29D1DD180003E7DA /* HeroDetailView.swift in Sources */,
+				3A44309129D1B0770003E7DA /* HomeView.swift in Sources */,
 				3A44304929D195360003E7DA /* MarvelUITestsLaunchTests.swift in Sources */,
+				3A44308829D1AFFA0003E7DA /* RootView.swift in Sources */,
+				3A4430A829D1F00A0003E7DA /* SeriesHeroRow.swift in Sources */,
+				3A4430AE29D1FC130003E7DA /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +658,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -465,6 +697,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -620,6 +853,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A46ECAC29D2F056004B4641 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3A89E5E329D2E66500D73B0A /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				branch = 0.9.6;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A46ECAD29D2F056004B4641 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A46ECAC29D2F056004B4641 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		3A46ECAF29D2F067004B4641 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A46ECAC29D2F056004B4641 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		3A46ECB129D2F06C004B4641 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A46ECAC29D2F056004B4641 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		3A46ECB329D2F070004B4641 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A89E5E329D2E66500D73B0A /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+		3A89E5E429D2E66500D73B0A /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A89E5E329D2E66500D73B0A /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3A44302929D195350003E7DA /* Marvel.xcdatamodeld */ = {

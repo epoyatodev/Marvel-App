@@ -10,11 +10,14 @@ import SwiftUI
 @main
 struct MarvelApp: App {
     let persistenceController = PersistenceController.shared
+    
+    @StateObject var rootViewModel = HeroViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            RootView().environmentObject(rootViewModel)
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

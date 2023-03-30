@@ -6,6 +6,9 @@
 //
 
 import XCTest
+import ViewInspector
+import SwiftUI
+import Combine
 
 final class MarvelTests: XCTestCase {
 
@@ -17,19 +20,121 @@ final class MarvelTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+
+    
+    // MARK: Test de UI
+    
+    func testLoadView() throws {
+        let view = LoaderView().environmentObject(HeroViewModel())
+        
+        XCTAssertNotNil(view)
+        
+         // Load Image
+        let image = try view.inspect().find(viewWithId: 0)
+        XCTAssertNotNil(image)
+        
+        // Load Text
+        let text = try view.inspect().find(viewWithId: 1)
+        XCTAssertNotNil(text)
+    }
+    
+    
+    func testErrorView() throws {
+        let view = ErrorView(error: "Testing")
+            .environmentObject(HeroViewModel())
+        
+        XCTAssertNotNil(view)
+        
+        // Imagen de error
+        
+        let image = try view.inspect().find(viewWithId: 0)
+        XCTAssertNotNil(image)
+        
+        // Texto de error
+        
+        let text = try view.inspect().find(viewWithId: 1)
+        XCTAssertNotNil(text)
+        
+        let texto = try text.text().string()
+        XCTAssertEqual(texto, "Testing")
+        
+        // Boton
+        
+        let boton = try view.inspect().find(viewWithId: 2)
+        XCTAssertNotNil(boton)
+        try boton.button().tap()
+        
+        
+    }
+    
+    func testHerosViewRow() throws {
+        let view = HerosViewRow(hero: Hero(id: 1, name: "Hulk", description: "Prueba", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")])).environmentObject(HeroViewModel())
+        
+        XCTAssertNotNil(view)
+        
+         // Image
+        let image = try view.inspect().find(viewWithId: 0)
+        XCTAssertNotNil(image)
+        
+        // Placeholder Image
+        let placeholder = try view.inspect().find(viewWithId: 1)
+        XCTAssertNotNil(placeholder)
+        
+        // Load Text
+        let text = try view.inspect().find(viewWithId: 2)
+        XCTAssertNotNil(text)
+    }
+    
+    
+    func testSeriesHeroRowView() throws {
+        let view = SeriesHeroRow(serie: Series(id: 1, title: "Serie Test", description: "Descripcion Test", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/621d39b76a244"))).environmentObject(HeroViewModel())
+        
+        XCTAssertNotNil(view)
+        
+        // Title
+       let title = try view.inspect().find(viewWithId: 0)
+       XCTAssertNotNil(title)
+        
+         // Image
+        let image = try view.inspect().find(viewWithId: 1)
+        XCTAssertNotNil(image)
+        
+        // Placeholder Image
+        let placeholder = try view.inspect().find(viewWithId: 2)
+        XCTAssertNotNil(placeholder)
+        
+        // Description
+        let description = try view.inspect().find(viewWithId: 3)
+        XCTAssertNotNil(description)
+
+        
+    }
+    
+    
+    // MARK: Test de Modelos
+    
+    func testModels() throws {
+        let hero = Hero(id: 1, name: "Hulk", description: "Test", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")])
+        
+        XCTAssertNotNil(hero)
+        XCTAssertEqual(hero.name, "Hulk")
+        XCTAssertEqual(hero.description, "Test")
+        XCTAssertEqual(hero.thumbnail.path, "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784")
+        XCTAssertEqual(hero.thumbnail.thumbnailExtension, "jpg")
+        
+        
+        let series = Series(id: 1, title: "Serie Test", description: "Description Test", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/621d39b76a244"))
+        
+        XCTAssertNotNil(series)
+        XCTAssertEqual(series.title, "Serie Test")
+        XCTAssertEqual(series.description, "Description Test")
+        XCTAssertEqual(series.thumbnail.path, "http://i.annihil.us/u/prod/marvel/i/mg/3/40/621d39b76a244")
+        XCTAssertEqual(series.thumbnail.thumbnailExtension, "jpg")
+
+
+        
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
+    
 }
