@@ -85,6 +85,18 @@ final class MarvelTests: XCTestCase {
         XCTAssertNotNil(text)
     }
     
+    func testHeroDetailView() throws {
+        let vm = SeriesHeroViewModel(id: 1011136)
+        let view = HeroDetailView(viewModel: vm, hero: Hero(id: 1011136, name: "Goku", description: "Prueba", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")]))
+            .environmentObject(HeroViewModel())
+        
+        XCTAssertNotNil(view)
+        
+        let list = try view.inspect().find(viewWithId: 0)
+        XCTAssertNotNil(list)
+ 
+    }
+    
     
     func testSeriesHeroRowView() throws {
         let view = SeriesHeroRow(serie: Series(id: 1, title: "Serie Test", description: "Descripcion Test", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/3/40/621d39b76a244"))).environmentObject(HeroViewModel())
@@ -132,6 +144,68 @@ final class MarvelTests: XCTestCase {
         XCTAssertEqual(series.thumbnail.thumbnailExtension, "jpg")
 
 
+        
+    }
+    
+    // MARK: Test de Combine
+    
+    func testHeroViewModel() throws {
+        var suscriptor = Set<AnyCancellable>()
+        
+        let expectation = self.expectation(description: "Carga de heroes")
+        
+        let vm = HeroViewModel(testing: false)
+        XCTAssertNotNil(vm)
+        
+        // Observador de Bootcamps
+        vm.heros.publisher
+            .sink { completion in
+                switch completion{
+                case.finished:
+                    XCTAssertEqual(1, 1)
+                    expectation.fulfill()
+                case.failure:
+                    XCTAssertEqual(1, 2)
+                    expectation.fulfill()
+                }
+            } receiveValue: { data in
+            }
+            .store(in: &suscriptor)
+        
+        vm.getHeros(filter: "")
+        
+        self.waitForExpectations(timeout: 10)
+        
+        
+    }
+    
+    func testSeriesHeroViewModel() throws {
+        var suscriptor = Set<AnyCancellable>()
+        
+        let expectation = self.expectation(description: "Carga de series")
+        
+        let vm = SeriesHeroViewModel(id: 1011136)
+        XCTAssertNotNil(vm)
+        
+        // Observador de Bootcamps
+        vm.series.publisher
+            .sink { completion in
+                switch completion{
+                case.finished:
+                    XCTAssertEqual(1, 1)
+                    expectation.fulfill()
+                case.failure:
+                    XCTAssertEqual(1, 2)
+                    expectation.fulfill()
+                }
+            } receiveValue: { data in
+            }
+            .store(in: &suscriptor)
+        
+        vm.getHerosSeries(id: 1011136)
+        
+        self.waitForExpectations(timeout: 10)
+        
         
     }
 

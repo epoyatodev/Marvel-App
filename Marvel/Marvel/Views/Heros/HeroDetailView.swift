@@ -20,8 +20,10 @@ struct HeroDetailView: View {
                         
                         
                     }
+                    
                 }
             }
+            .id(0)
             .navigationBarTitle("Series \(hero.name) \(hero.id)", displayMode: .inline)
         }
     }
